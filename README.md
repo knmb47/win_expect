@@ -22,8 +22,8 @@ When the conversation with target command was made without problem, it will fini
    See the License for the specific language governing permissions and
    limitations under the License.
 
+```
 ---
-
 - hosts: windows
   tasks:
           - name: call windows shell
@@ -55,3 +55,4 @@ When the conversation with target command was made without problem, it will fini
 
           - name: dump the win_expect output
             debug: var=cmd_result
+```
