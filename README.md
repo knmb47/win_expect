@@ -8,7 +8,6 @@ The `win_expect` module can work as like `expect` ansible module for UNIX. It wi
 When the conversation with target command was made without problem, it will finish successfully and the result will have the output message of the conversation.
 
 ```
----
 #   Copyright 2023 Kunio Namba
 #
 #   Licensed under the Apache License, Version 2.0 (the "License");
